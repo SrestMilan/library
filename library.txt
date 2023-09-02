@@ -1,4 +1,6 @@
-/*CREATE DATABASE project;
+-- query for library management system
+
+CREATE DATABASE project;
 
 CREATE TABLE table_publisher
 (
@@ -12,5 +14,4 @@ CREATE TABLE tbl_book (
 		Title VARCHAR(100) NOT NULL,
 		);
 		
-        */
         
