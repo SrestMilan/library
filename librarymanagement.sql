@@ -63,3 +63,12 @@ VALUES
 
 -- retrieve data from book of table
 SELECT * FROM tbl_book;
+
+-- retrieve data using WHERE clause from book of table
+SELECT Title FROM tbl_book WHERE BookID=6;
+
+-- retrieve data using WHERE clause from book of table taking title
+SELECT * FROM tbl_book WHERE Title='The Giving Tree'; 
+
+-- deleting row records of book table i.e. Title=The Giving Tree using WHERE clause 
+DELETE FROM tbl_book WHERE Title='The Giving Tree'
