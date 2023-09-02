@@ -99,5 +99,12 @@ SELECT Borrower_BorrowerName FROM borrower_tbl WHERE Borrower_BorrowerAddress IS
 -- retrieving  borrowername whose address is not null
 select Borrower_BorrowerName FROM borrower_tbl WHERE Borrower_BorrowerAddress IS NOT NULL;
 
+-- retrieving top 5 data from table from publisher;
+SELECT TOP 5 * FROM table_publisher;
 
 
+-- retrieving 50 percent data from table from publisher;
+SELECT TOP 50 PERCENT * FROM table_publisher;
+
+-- retriving data where a lies in any position
+SELECT * FROM borrower_tbl WHERE Borrower_BorrowerName LIKE '%a%' 
