@@ -91,7 +91,13 @@ SELECT * From borrower_tbl;
 
 -- updating Borrower_BorrowerName='Govinda Shrestha' with Borrrower_CardNo column
 UPDATE borrower_tbl SET Borrower_BorrowerName='Govinda Shrestha' WHERE Borrower_CardNo=105;
-select * from borrower_tbl;
+SELECT * FROM borrower_tbl;
+
+-- checking whether borrowername null according to address
+SELECT Borrower_BorrowerName FROM borrower_tbl WHERE Borrower_BorrowerAddress IS NULL;
+
+-- retrieving  borrowername whose address is not null
+select Borrower_BorrowerName FROM borrower_tbl WHERE Borrower_BorrowerAddress IS NOT NULL;
 
 
 
