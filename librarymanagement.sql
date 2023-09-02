@@ -50,3 +50,16 @@ VALUES
 
 -- retriving data from table_publisher table
 SELECT * FROM table_publisher;
+
+
+-- inserted data into table of book
+INSERT INTO tbl_book(Title)
+VALUES
+('A Wise Mans Fear'),
+		('Harry Potter and the Philosophers Stone'),
+		('Hard Boiled Wonderland and The End of the World'),
+		('The Giving Tree');
+
+
+-- retrieve data from book of table
+SELECT * FROM tbl_book;
