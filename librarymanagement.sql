@@ -89,4 +89,9 @@ INSERT INTO borrower_tbl
 -- RETRIVING data from borrower table
 SELECT * From borrower_tbl;
 
+-- updating Borrower_BorrowerName='Govinda Shrestha' with Borrrower_CardNo column
+UPDATE borrower_tbl SET Borrower_BorrowerName='Govinda Shrestha' WHERE Borrower_CardNo=105;
+select * from borrower_tbl;
+
+
 
