@@ -108,3 +108,9 @@ SELECT TOP 50 PERCENT * FROM table_publisher;
 
 -- retriving data where a lies in any position
 SELECT * FROM borrower_tbl WHERE Borrower_BorrowerName LIKE '%a%' 
+
+-- retriving the total count of borrower name and card number
+SELECT COUNT(Borrower_BorrowerName) AS borrowername, COUNT(Borrower_CardNo) AS card_number FROM borrower_tbl;
+
+-- retriving bookid according to title present in table
+SELECT  BookID AS ID_Number FROM tbl_book WHERE Title IN('A Wise Mans Fear','Harry Potter and the Philosophers Stone');
