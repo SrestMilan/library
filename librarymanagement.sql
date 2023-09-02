@@ -72,3 +72,21 @@ SELECT * FROM tbl_book WHERE Title='The Giving Tree';
 
 -- deleting row records of book table i.e. Title=The Giving Tree using WHERE clause 
 DELETE FROM tbl_book WHERE Title='The Giving Tree'
+
+-- inserted records in borrower table
+INSERT INTO borrower_tbl
+		(Borrower_BorrowerName, Borrower_BorrowerAddress, Borrower_BorrowerPhone)
+		VALUES
+		('Joe Smith','1321 4th Street, New York, NY 10014','212-312-1234'),
+		('Jane Smith','1321 4th Street, New York, NY 10014','212-931-4124'),
+		('Tom Li','981 Main Street, Ann Arbor, MI 48104','734-902-7455'),
+		('Angela Thompson','2212 Green Avenue, Ann Arbor, MI 48104','313-591-2122'),
+		('Harry Emnace','121 Park Drive, Ann Arbor, MI 48104','412-512-5522'),
+		('Tom Haverford','23 75th Street, New York, NY 10014','212-631-3418'),
+		('Haley Jackson','231 52nd Avenue New York, NY 10014','212-419-9935'),
+		('Michael Horford','653 Glen Avenue, Ann Arbor, MI 48104','734-998-1513');
+
+-- RETRIVING data from borrower table
+SELECT * From borrower_tbl;
+
+
