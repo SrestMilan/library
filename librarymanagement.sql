@@ -114,3 +114,6 @@ SELECT COUNT(Borrower_BorrowerName) AS borrowername, COUNT(Borrower_CardNo) AS c
 
 -- retriving bookid according to title present in table
 SELECT  BookID AS ID_Number FROM tbl_book WHERE Title IN('A Wise Mans Fear','Harry Potter and the Philosophers Stone');
+
+-- finding unique value by eliminating duplicating values from table of book
+SELECT DISTINCT(Title) AS booktitle FROM tbl_book;
